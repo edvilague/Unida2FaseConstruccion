@@ -20,6 +20,7 @@ h1{
     text-shadow: 5px 5px 10px rgba(255,255,255,0.5); 
  }
 header,nav,footer{
+	width: 100%;
  	background: #1E6381; 
  	border-radius: 0.2em;
  	margin: 0.5em auto;
@@ -29,17 +30,26 @@ header,nav,footer{
  	list-style: none;
 
 }
-li{
-	font-family: "chaketmedium",helvetica,verdana;
-	background: #ce8506; 
- 	border-radius: 0.2em;
- 	margin: 0.5em auto;
- 	max-width: 960px;
- 	padding: 0.25em;
- 	text-align: center;
- 	list-style: none;
+#menu{
+	width: 900px;
+	padding-top: 10px;
+	margin: auto;
 }
+#menu ul a{
+	color: #6e6e6e;
+	text-decoration: none;
+	font: bold 16px verdana;
+	padding: 12px 20px 12px 20px;
+	background: #2b1187;
+	border-bottom: 9px transparent #ccbc0e;
+	-webkit-transition: border-bottom .4s;
+	-moz-transition: border-bottom .4s;
+	-o-transition: border-bottom .4s;
+}
+#menu ul a:hover{
+	border-bottom: 9px solid #ccbc0e;
 
+}
 
 
 section#contenedor{
@@ -140,3 +150,4 @@ div#center{
 
 	75% {margin-left: -300%;}
 	100% {margin-left: -300%;}
+
