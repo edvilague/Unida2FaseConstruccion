@@ -1,6 +1,6 @@
-{ 
-	padding: 0;
-	margin: 0;
+*{
+  padding: 0;
+  margin: 0;
 }
 
 body{
@@ -8,8 +8,8 @@ body{
 	background:#8bb0ba;
 	color:#212121;
 	font-size: 2em;
-	margin: 0.5em auto;
- 	max-width: 960px;
+	margin: 0.2em auto;
+ 	max-width: 950px;
  	padding: 0.25em;
  	text-align: justify;
 }
@@ -17,31 +17,36 @@ h1{
     color: #212121;
     margin: 0.25em auto;
     text-align: center;
-    text-shadow: 5px 5px 10px rgba(255,255,255,0.5); 
+    text-shadow: 5px 5px 10px rgba(255,255,255,0.5);
  }
-header,nav{
-	width: 100%;
- 	background: #1E6381; 
+ h2{
+ 	font-size: 45px;
+ }
+ /*
+ * Barra de navegación
+ */
+header{
+ 	background: #1E6381;
  	border-radius: 0.2em;
- 	margin: 0.5em auto;
+ 	margin: 0.1em auto;
  	max-width: 950px;
- 	padding: 0.25em;
+ 	padding: 0.5em;
  	text-align: center;
  	list-style: none;
 }
+/* Pie de pagina*/
 footer{
 	width: 100%;
- 	background: #002535; 
+ 	background: #002535;
  	color: #c5dde8;
- 	
 
 }
 .container-footer{
 	width: 100%;
 	max-width: 1200px;
 	display: flex;
-	margin: auto;
 	padding: 10px;
+	text-decoration: none;
 }
 .container-body{
 	display: flex;
@@ -49,11 +54,11 @@ footer{
 
 }
 .columna1{
-	max-width: :400px;
-	padding: :15px;
+	max-width: 400px;
+	padding: 15px;
 }
 .columna2{
-	max-width: :400px;
+	max-width: 400px;
 	padding: 15px;
 
 }
@@ -65,7 +70,7 @@ footer{
 .columna2 p{
 	font-size: 14px;
 	color: #c7c7c7;
-	margin-top: 20px;
+	/* margin-top: 20px; */
 }
 .columna3{
 	max-width: 800px;
@@ -91,6 +96,7 @@ footer{
 .row label {
 	margin-top: 10px;
 	margin-left: 20px;
+
 }
 #menu{
 	width: 960px;
@@ -111,14 +117,11 @@ footer{
 }
 #menu ul a:hover{
 	border-bottom: 9px solid #ccbc0e;
-
 }
-
-
 section#contenedor{
 	overflow: hidden;
-	margin: 0.5em auto;
-	max-width: 960px;
+	margin: 0.1em auto;
+	max-width: 950px;
 	padding: 0;
 	text-align: center;
 	background: #ffffff;
@@ -129,10 +132,10 @@ section#principal{
 	border-radius: 0.5em;
 	display: inline-block;
 	margin: 0.2em auto;
-	max-width: 960;
+	max-width: 950;
 	min-height: 200px;
 	vertical-align: top;
-	width: 65%	
+	width: 65%
 }
 article{
 	background: #011E30;
@@ -141,14 +144,14 @@ article{
 	padding: 0.25px
 }
 aside{
-	float: right;
-	padding: 2px;
+	float: left;
+	padding: 0px;
 	color: #212121;
 	width: 250px;
-	margin: 50px;
+	margin: 5px;
 	background:#ffffff;
 	font-size: 25px;
-	height: 600px;
+	height: 400px;
 }
 div#right{
 	float: left;
@@ -157,7 +160,7 @@ div#right{
 	width: 300px;
 	margin: 5px;
 	background: #ffffff;
-	font-size: 25px;
+	font-size: 20px;
 }
 div#left{
 	float: left;
@@ -167,8 +170,19 @@ div#left{
 	margin: 5px;
 	background:#ffffff;
 	font-size: 25px;
-	height: 600px;
+	height: 500px;
 	overflow-y: scroll;
+}
+div#siguenos{
+	float: left;
+	padding: 0px;
+	color: #212121;
+	width: 220px;
+	margin: 5px;
+	background:#1E6381;
+	font-size: 20px;
+	height: 25px;
+	border-style: double;
 }
 div#center{
 	float: left;
@@ -178,28 +192,34 @@ div#center{
 	height: 300px;
 	margin: 1px;
 	background: #ffffff;
-	font-size: 25px;
+	font-size: 20px;
 }
 .slider{
-	width: 100%;
-	margin: auto;
+	width: 950px;
+	margin-top: 0px;
 	overflow: hidden;
 	height: 300px;
+	background: #6e6e6e;
+	border-radius: 0.2em;
 }
 .slider ul{
 	display: flex;
 	padding: 0;
 	width: 200%;
+	margin-top: 0;
 
 	animation: cambio 20s infinite alternate linear;
 }
 .slider li{
 	width: 100%;
 	list-style: none;
+	height: 10px;
+	margin-top: 0px;
 }
 .slider img{
-	width: 960px;
+	width: 950px;
 	height: 300px;
+	border-radius: 0.2em;
 }
 @keyframes cambio{
 	0% {margin-left: 0;}
@@ -213,5 +233,4 @@ div#center{
 
 	75% {margin-left: -300%;}
 	100% {margin-left: -300%;}
-
-
+}
