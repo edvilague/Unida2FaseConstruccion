@@ -18,13 +18,12 @@
 				<a href="conceptosbasicos.html">Conceptos Básicos</a>
 				<a href="normasyestandares.html">Normas y estandares</a>
 				<a href="actividades.html">Actividades</a>
-				<a href="autores.html">Autores</a>
+				<a href="autores.htlm">Autores</a>
 			</ul>
 		</section>
 	</header>
 	<h1>AUTORES</h1>
-
-<section>
+	<section>
 	<div class="autores">
 		<div class="daniela">
 			<div class="columna1">
@@ -42,6 +41,7 @@
 
 	</div>
 	</section>
+
 	
 <footer>
 	<div class="container-footer">

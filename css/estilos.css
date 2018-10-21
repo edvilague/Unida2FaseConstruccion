@@ -34,6 +34,19 @@ header{
  	text-align: center;
  	list-style: none;
 }
+.autores{
+	background: #1E6381;
+	max-width: 960px;
+	display: flex;
+	padding: 0.5em;
+	border-radius: 0.2em;
+	margin: 0.1em auto;
+}
+.daniela{
+	display: flex;
+	justify-content: :space-between;
+
+}
 /* Pie de pagina*/
 footer{
 	width: 100%;
