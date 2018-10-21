@@ -118,6 +118,13 @@ footer{
 #menu ul a:hover{
 	border-bottom: 9px solid #ccbc0e;
 }
+#contenedor h1{
+	color: #212121;
+    margin: 0.25em auto;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 5px 5px 10px rgba(255,255,255,0.5);
+}
 section#contenedor{
 	overflow: hidden;
 	margin: 0.1em auto;
