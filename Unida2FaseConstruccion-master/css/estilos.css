@@ -1,0 +1,263 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+	font-family: "chaketmedium",helvetica,verdana;
+	background:#8bb0ba;
+	color:#212121;
+	font-size: 2em;
+	margin: 0.2em auto;
+ 	max-width: 950px;
+ 	padding: 0.25em;
+ 	text-align: justify;
+}
+h1{
+    color: #212121;
+    margin: 0.25em auto;
+    text-align: center;
+    text-shadow: 5px 5px 10px rgba(255,255,255,0.5);
+ }
+ h2{
+ 	font-size: 45px;
+ }
+ /*
+ * Barra de navegación
+ */
+header{
+ 	background: #1E6381;
+ 	border-radius: 0.2em;
+ 	margin: 0.1em auto;
+ 	max-width: 950px;
+ 	padding: 0.5em;
+ 	text-align: center;
+ 	list-style: none;
+}
+.autores{
+	background: #1E6381;
+	max-width: 960px;
+	display: flex;
+	padding: 0.5em;
+	border-radius: 0.2em;
+	margin: 0.1em auto;
+}
+.daniela{
+	display: flex;
+	justify-content: :space-between;
+
+}
+/* Pie de pagina*/
+footer{
+	width: 100%;
+ 	background: #002535;
+ 	color: #c5dde8;
+
+}
+.container-footer{
+	width: 100%;
+	max-width: 1200px;
+	display: flex;
+	padding: 10px;
+	
+}
+.container-body{
+	display: flex;
+	justify-content: space-between;
+}
+.columna1{
+	max-width: 400px;
+	padding: 15px;
+}
+.columna2{
+	max-width: 400px;
+	padding: 15px;
+
+}
+.columna2 h1{
+	font-size: 20px;
+	color: #c5dde8;
+	text-align: left;
+}
+.columna2 p{
+	font-size: 16px;
+	color: #c7c7c7;
+	margin-top: 20px;
+	text-align: center;
+}
+.columna3{
+	max-width: 800px;
+}
+.columna3 h1{
+	font-size: 20px;
+	color: #c5dde8;
+	text-align: left;
+}
+.columna3 label{
+	font-size: 14px;
+	color: #c7c7c7;
+	margin-top: 20px;
+}
+.columna3 .row{
+	margin-top: 20px;
+	display: flex;
+
+}
+.row img{
+	width: 36px;
+	height: 36px
+}
+.row label {
+	margin-top: 10px;
+	margin-left: 20px;
+	font-size: 16px;
+}
+.link{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 50px;
+
+}
+#menu{
+	width: 960px;
+	padding-top: 10px;
+	margin: auto;
+}
+
+#menu ul a{
+	color: #6e6e6e;
+	text-decoration: none;
+	font: bold 16px verdana;
+	padding: 12px 20px 12px 20px;
+	background: #2b1187;
+	border-bottom: 9px transparent #ccbc0e;
+	-webkit-transition: border-bottom .4s;
+	-moz-transition: border-bottom .4s;
+	-o-transition: border-bottom .4s;
+}
+#menu ul a:hover{
+	border-bottom: 9px solid #ccbc0e;
+}
+#contenedor h1{
+	color: #212121;
+    margin: 0.25em auto;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 5px 5px 10px rgba(255,255,255,0.5);
+}
+section#contenedor{
+	overflow: hidden;
+	margin: 0.1em auto;
+	max-width: 950px;
+	padding: 0;
+	text-align: center;
+	background: #ffffff;
+	text-align: center;
+}
+section#principal{
+	background: #1E6381;
+	border-radius: 0.5em;
+	display: inline-block;
+	margin: 0.2em auto;
+	max-width: 950;
+	min-height: 200px;
+	vertical-align: top;
+	width: 65%
+}
+article{
+	background: #011E30;
+	border-radius: 0.5em;
+	min-height: 140px;
+	padding: 0.25px
+}
+aside{
+	float: left;
+	padding: 0px;
+	color: #212121;
+	width: 250px;
+	margin: 5px;
+	background:#ffffff;
+	font-size: 25px;
+	height: 400px;
+}
+div#right{
+	float: left;
+	padding: 20px;
+	color: #212121;
+	width: 300px;
+	margin: 5px;
+	background: #ffffff;
+	font-size: 20px;
+}
+div#left{
+	float: left;
+	padding: 2px;
+	color: #212121;
+	width: 250px;
+	margin: 5px;
+	background:#ffffff;
+	font-size: 25px;
+	height: 500px;
+	overflow-y: scroll;
+}
+div#siguenos{
+	float: left;
+	padding: 0px;
+	color: #212121;
+	width: 220px;
+	margin: 5px;
+	background:#1E6381;
+	font-size: 20px;
+	height: 25px;
+	border-style: double;
+}
+div#center{
+	float: left;
+	padding: 2px;
+	color: #212121;
+	width: 300px;
+	height: 300px;
+	margin: 1px;
+	background: #ffffff;
+	font-size: 20px;
+}
+.slider{
+	width: 950px;
+	margin-top: 0px;
+	overflow: hidden;
+	height: 300px;
+	background: #6e6e6e;
+	border-radius: 0.2em;
+}
+.slider ul{
+	display: flex;
+	padding: 0;
+	width: 200%;
+	margin-top: 0;
+
+	animation: cambio 20s infinite alternate linear;
+}
+.slider li{
+	width: 100%;
+	list-style: none;
+	height: 10px;
+	margin-top: 0px;
+}
+.slider img{
+	width: 950px;
+	height: 300px;
+	border-radius: 0.2em;
+}
+@keyframes cambio{
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
