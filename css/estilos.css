@@ -22,9 +22,6 @@ h1{
  h2{
  	font-size: 45px;
  }
- label a{
- 	style="text-decoration-color: #ffc300
- }
  /*
  * Barra de navegación
  */
@@ -83,9 +80,10 @@ footer{
 	text-align: left;
 }
 .columna2 p{
-	font-size: 14px;
+	font-size: 16px;
 	color: #c7c7c7;
 	margin-top: 20px;
+	text-align: center;
 }
 .columna3{
 	max-width: 800px;
@@ -112,7 +110,13 @@ footer{
 .row label {
 	margin-top: 10px;
 	margin-left: 20px;
-	font-size: 14px;
+	font-size: 16px;
+}
+.link{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 50px;
+
 }
 #menu{
 	width: 960px;
