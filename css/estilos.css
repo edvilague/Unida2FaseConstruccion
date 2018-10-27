@@ -171,6 +171,10 @@ footer{
 	margin-bottom: 0.1em;
 	margin-top: 0.1em;
 }
+.activ p{
+	text-align: center;
+	font-size: 15px;
+}
 #contenedor h1{
 	color: #212121;
     margin: 0.25em auto;
